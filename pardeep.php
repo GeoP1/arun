@@ -1,5 +1,5 @@
 <?php
-echo "<h2>What is the plan</h2>";
+echo "<h2>Hello</h2>";
 phpinfo();
 /*
  * To change this template, choose Tools | Templates
