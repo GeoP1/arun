@@ -1,6 +1,6 @@
-<?php
+<?php 
 $memcache = new Memcache;
-$memcache->connect('localhost') or die ("Could not connect");
+$memcache->connect('localhost') or die ("Could not connect ");
 
 $version = $memcache->getVersion();
 echo "Server's version: ".$version."<br/>\n";
